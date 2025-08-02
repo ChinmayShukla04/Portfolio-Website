@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinmay Shukla</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: Poppins, sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+            background-color: rgb(0, 0, 50);
+            height: 80px;
+        }
+
+        nav ul{
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav ul li{
+            list-style: none;
+            margin: 0 30px;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover{
+            color: rgb(8, 32, 250);
+            font-size: 1.5rem;
+        }
+
+        main hr{
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 30px 94px;
+        }
+
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 110px 0;
+        }
+
+        .firstSection > div {
+            width: 40%;
+        }
+
+        .leftSection{
+            font-size: 3rem;
+            margin: 80px 0;
+        }
+
+        .leftSection .buttons {
+            padding: 50px 0;
+            
+        }
+
+        .leftSection .btn{
+            padding: 12px 24px;
+            font-size: 20px;
+            border: 2px solid white;
+            border-radius: 5px;
+            background: rgb(22 22 62);
+            cursor: pointer;
+            color: white;
+        }
+
+        .rightSection img{
+            width: 80%;
+        }
+
+        .purple {
+            color: rgb(198, 29, 231);
+        }
+
+        .textgrey {
+            color: rgb(94, 92, 92);
+            font-size: 1.5rem;
+        }
+
+        #element{
+            color: rgb(198, 29, 231);
+        }
+
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1{
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 80%;
+            height: 2px;
+            margin: 56px 0;
+        }
+
+        .secondSection .vertical {
+            width: 1px;
+            height: 93px;
+            background: white;
+            display: inline-block;
+            margin: 0 100px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: grey;
+            width: 150px;
+            font-size: 9px;
+        }
+        
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        footer{
+            background-color: rgb(0, 0, 50);
+            /* height: 200px; */
+        }
+
+        .footer{
+            display: flex;
+            opacity: 0.8;
+            padding: 23px 124px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul{
+            list-style: none;
+        }
+
+        .footer > div {
+            width: 240px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            margin-top: 20px;
+            color: gray;
+            font-size: 0.8rem;
+            padding: 15px 0;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Chinmay's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Chinmay Shukla</span>
+                <div>and I am a passionate</div>
+                <!-- <div> Web Developer</div> -->
+                 <span id="element"></span>
+                 <div class="buttons">
+                     <button class="btn">Download Resume</button>
+                     <button class="btn">LinkedIn Profile</button>
+                 </div>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+
+        <section class="secondSection">
+            <hr>
+            <span class="textgrey">What i Have done so far </span>
+            <h1>Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="developer.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        HTML Developer (2022 - 2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, non?
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img src="developer.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        CSS Developer (2022 - 2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, non?
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img src="developer.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        JS Developer (2022 - 2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, non?
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img src="developer.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        nodejs Developer (2023 - Present)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, non?
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Chinmay's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>home</li>
+                    <li>about</li>
+                    <li>projects</li>
+                    <li>contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>home</li>
+                    <li>about</li>
+                    <li>projects</li>
+                    <li>contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>home</li>
+                    <li>about</li>
+                    <li>projects</li>
+                    <li>contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &copy; www.chinmayshukla.com | All Rights Reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Passionate AI Coder'],
+      typeSpeed: 70,
+    });
+  </script>
+
+</body>
+</html>
